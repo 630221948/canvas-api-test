@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"out": "./out/engine.js",
+		"declaration": true
+	},
+	"files": [
+		"src/core/drawable.ts",
+		"src/core/displayobject.ts",
+		"src/core/bitmap.ts",
+        "src/core/textfield.ts",
+        "src/core/displayobjectcontainer.ts",
+        "src/core/eventcontroller.ts",
+        "src/core/touchingevent.ts",
+        "src/core/math.ts",
+        "src/core/ticker.ts",
+		"platforms/browser/driver.ts"
+	]
+}
